@@ -2,7 +2,7 @@ PODS:
   - CocoaLumberjack (3.6.0):
     - CocoaLumberjack/Core (= 3.6.0)
   - CocoaLumberjack/Core (3.6.0)
-  - LWLogger (0.1.0):
+  - LWLogger (1.0.0):
     - CocoaLumberjack (~> 3.6.0)
     - skpsmtpmessage
     - ZipArchive
@@ -24,7 +24,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   CocoaLumberjack: 78b0c238666f4f58db069738ec176f4519557516
-  LWLogger: 5387d79d924e22927788146205d6e37a5eb3f8c1
+  LWLogger: f859904432fa608c0aa7f9bcebc64522294aac02
   skpsmtpmessage: f6e913380c784dd8d4a9f83c8790a302445a5e05
   ZipArchive: e25a4373192673e3229ac8d6e9f64a3e5713c966
 

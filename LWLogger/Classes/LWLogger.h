@@ -4,6 +4,8 @@
 
 #import "KOOLogUtil.h"
 
+//#define LWLog DDLogInfo
+
 #ifdef DEBUG
 #define LWLog DDLogInfo
 #else

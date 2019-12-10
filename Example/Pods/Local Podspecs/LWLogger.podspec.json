@@ -1,9 +1,9 @@
 {
   "name": "LWLogger",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "summary": "A short description of LWLogger.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/luowei/LWLogger",
+  "homepage": "https://gitlab.com/ioslibraries1/lwlogger.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,7 @@
     "luowei": "luowei@wodedata.com"
   },
   "source": {
-    "git": "https://github.com/luowei/LWLogger.git",
-    "tag": "0.1.0"
+    "git": "https://gitlab.com/ioslibraries1/lwlogger.git"
   },
   "platforms": {
     "ios": "8.0"

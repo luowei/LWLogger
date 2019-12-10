@@ -20,12 +20,14 @@
     // Do any additional setup after loading the view, typically from a nib.
 
     LWLog(@"======LWLogger Log: %s",__func__);
+    //NSLog(@"======LWLogger Log: %s",__func__);
 
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)logSend:(id)sender {
+    [KOOLogUtil initLogConfig];
+    KOOLogUtil * util = [[KOOLogUtil alloc]init];
+    [util uploadLog];
 }
 
 @end

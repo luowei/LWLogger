@@ -36,7 +36,12 @@ TODO: Add long description of the pod here.
   #   'LWLogger' => ['LWLogger/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+
+  s.dependency 'CocoaLumberjack', '~>3.6.0'
+  s.dependency 'ZipArchive'
+  s.dependency 'skpsmtpmessage'
+
 end

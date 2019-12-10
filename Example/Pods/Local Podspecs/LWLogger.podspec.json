@@ -1,0 +1,34 @@
+{
+  "name": "LWLogger",
+  "version": "0.1.0",
+  "summary": "A short description of LWLogger.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/luowei/LWLogger",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "luowei": "luowei@wodedata.com"
+  },
+  "source": {
+    "git": "https://github.com/luowei/LWLogger.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LWLogger/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*.h",
+  "dependencies": {
+    "CocoaLumberjack": [
+      "~>3.6.0"
+    ],
+    "ZipArchive": [
+
+    ],
+    "skpsmtpmessage": [
+
+    ]
+  }
+}

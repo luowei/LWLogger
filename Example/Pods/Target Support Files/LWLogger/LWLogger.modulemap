@@ -1,0 +1,6 @@
+framework module LWLogger {
+  umbrella header "LWLogger-umbrella.h"
+
+  export *
+  module * { export * }
+}

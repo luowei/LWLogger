@@ -1,0 +1,33 @@
+PODS:
+  - CocoaLumberjack (3.6.0):
+    - CocoaLumberjack/Core (= 3.6.0)
+  - CocoaLumberjack/Core (3.6.0)
+  - LWLogger (0.1.0):
+    - CocoaLumberjack (~> 3.6.0)
+    - skpsmtpmessage
+    - ZipArchive
+  - skpsmtpmessage (0.0.1)
+  - ZipArchive (1.4.0)
+
+DEPENDENCIES:
+  - LWLogger (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - CocoaLumberjack
+    - skpsmtpmessage
+    - ZipArchive
+
+EXTERNAL SOURCES:
+  LWLogger:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 78b0c238666f4f58db069738ec176f4519557516
+  LWLogger: 5387d79d924e22927788146205d6e37a5eb3f8c1
+  skpsmtpmessage: f6e913380c784dd8d4a9f83c8790a302445a5e05
+  ZipArchive: e25a4373192673e3229ac8d6e9f64a3e5713c966
+
+PODFILE CHECKSUM: 09f62d6242205d3fc1ba55a09e57022f6b88aa8d
+
+COCOAPODS: 1.8.3

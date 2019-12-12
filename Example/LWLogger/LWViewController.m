@@ -25,9 +25,18 @@
 }
 
 - (IBAction)logSend:(id)sender {
-    [KOOLogUtil initLogConfig];
-    KOOLogUtil * util = [[KOOLogUtil alloc]init];
-    [util uploadLog];
+    NSString *logZipPath = [LWLogUtil logZipPath];
+    [self shareWithFilePath:logZipPath];
+}
+
+- (void)shareWithFilePath:(NSString *)filePath {
+    NSURL *url = [NSURL fileURLWithPath:filePath];
+    NSArray *objectsToShare = @[url];
+    NSArray *excludedActivities = @[UIActivityTypeMessage, UIActivityTypeMail];
+    UIActivityViewController *controller = [[UIActivityViewController alloc] initWithActivityItems:objectsToShare applicationActivities:nil];
+    controller.excludedActivityTypes = excludedActivities;
+//     Present the controller
+    [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:controller animated:YES completion:nil];
 }
 
 @end

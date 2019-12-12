@@ -2,7 +2,7 @@
 #ifndef LWLogger____FILEEXTENSION___
 #define LWLogger____FILEEXTENSION___
 
-#import "KOOLogUtil.h"
+#import "LWLogUtil.h"
 
 //#define LWLog DDLogInfo
 

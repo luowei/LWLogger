@@ -1,17 +1,17 @@
 //
-//  KOOLogUtil.m
+//  LWLogUtil.m
 //  CocoaLumberjack
 //
-//  Created by wupeng01 on 2019/11/7.
+//  Created by luowei on 2019/11/8.
 //
 
-#import "KOOLogUtil.h"
+#import "LWLogUtil.h"
 #import <ZipArchive/ZipArchive.h>
 
-@interface KOOLogUtil ()
+@interface LWLogUtil ()
 @end
 
-@implementation KOOLogUtil
+@implementation LWLogUtil
 + (void)initLogConfig {
     [DDLog addLogger:[DDOSLogger sharedInstance]];
 
@@ -21,7 +21,7 @@
     [DDLog addLogger:fileLogger];
 }
 
-- (void)uploadLog {
++ (NSString *)logZipPath {
     //获取DDLog打印的日志
     DDFileLogger *fileLogger = [[DDFileLogger alloc] init];
     //获取log文件夹路径
@@ -45,24 +45,15 @@
             //使用log本身的名字命名
             [logZip addFileToZip:[logDirectory stringByAppendingString:[NSString stringWithFormat:@"/%@", obj]] newname:obj];
         }];
-        [self shareWithFilePath:logZipPath];
+
     } else {
         DDLogDebug(@"创建zip失败");
-        [logZip CloseZipFile2];
-        //返回为空
     }
     //关闭
     [logZip CloseZipFile2];
+
+    return logZipPath;
 }
 
 
-- (void)shareWithFilePath:(NSString *)filePath {
-    NSURL *url = [NSURL fileURLWithPath:filePath];
-    NSArray *objectsToShare = @[url];
-    NSArray *excludedActivities = @[UIActivityTypeMessage, UIActivityTypeMail];
-    UIActivityViewController *controller = [[UIActivityViewController alloc] initWithActivityItems:objectsToShare applicationActivities:nil];
-    controller.excludedActivityTypes = excludedActivities;
-//     Present the controller
-    [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:controller animated:YES completion:nil];
-}
 @end

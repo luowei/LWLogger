@@ -10,8 +10,8 @@
 #endif
 #endif
 
-#import "KOOLogUtil.h"
 #import "LWLogger.h"
+#import "LWLogUtil.h"
 
 FOUNDATION_EXPORT double LWLoggerVersionNumber;
 FOUNDATION_EXPORT const unsigned char LWLoggerVersionString[];

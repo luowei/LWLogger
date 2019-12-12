@@ -1,8 +1,8 @@
 //
-//  KOOLogUtil.h
+//  LWLogUtil.h
 //  CocoaLumberjack
 //
-//  Created by wupeng01 on 2019/11/7.
+//  Created by luowei on 2019/11/8.
 //
 
 #import <Foundation/Foundation.h>
@@ -10,9 +10,11 @@
 static const DDLogLevel ddLogLevel = DDLogLevelAll;
 NS_ASSUME_NONNULL_BEGIN
 
-@interface KOOLogUtil : NSObject
-- (void)uploadLog;
+@interface LWLogUtil : NSObject
+
 + (void)initLogConfig;
++ (NSString *)logZipPath;
+
 @end
 
 NS_ASSUME_NONNULL_END

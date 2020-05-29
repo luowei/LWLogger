@@ -41,7 +41,7 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '~> 2.3'
 
   s.dependency 'CocoaLumberjack', '~>3.6.0'
-  s.dependency 'ZipArchive'
+  s.dependency 'SSZipArchive'
   s.dependency 'skpsmtpmessage'
 
 end

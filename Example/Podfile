@@ -6,7 +6,7 @@ target 'LWLogger_Example' do
   pod 'LWLogger', :path => '../'
 
   pod 'CocoaLumberjack', '~>3.6.0'
-  pod 'ZipArchive'
+  pod 'SSZipArchive'
   pod 'skpsmtpmessage'
 
   # pod 'skpsmtpmessage'

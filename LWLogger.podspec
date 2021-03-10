@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'LWLogger'
   s.version          = '1.0.0'
-  s.summary          = 'A short description of LWLogger.'
+  s.summary          = '一个日志记录框架，基于CocoaLumberjack封将.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+一个日志记录框架，基于CocoaLumberjack封装。能够记录不同级别的日志，并保存到文件，按日期生成压缩包。
                        DESC
 
   s.homepage         = 'https://gitlab.com/ioslibraries1/lwlogger.git'
@@ -42,6 +42,6 @@ TODO: Add long description of the pod here.
 
   s.dependency 'CocoaLumberjack', '~>3.6.0'
   s.dependency 'SSZipArchive'
-  s.dependency 'skpsmtpmessage'
+  # s.dependency 'skpsmtpmessage'
 
 end

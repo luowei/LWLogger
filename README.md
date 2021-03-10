@@ -20,6 +20,11 @@ it, simply add the following line to your Podfile:
 pod 'LWLogger'
 ```
 
+**Carthage**
+```ruby
+github "luowei/LWLogger"
+```
+
 ## Author
 
 luowei, luowei@wodedata.com

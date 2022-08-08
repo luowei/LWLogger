@@ -9,6 +9,18 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+```Objective-C
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    // Override point for customization after application launch.
+    [LWLogUtil initLogConfig];
+    
+    return YES;
+}
+
+LWLog(@"======LWLogger Log: %s",__func__);
+```
+
 ## Requirements
 
 ## Installation

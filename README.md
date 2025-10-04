@@ -17,6 +17,7 @@ Whether you're debugging during development or collecting logs from production a
 
 ## Table of Contents
 
+- [Swift Version](./README_SWIFT_VERSION.md)
 - [Features](#features)
 - [Requirements](#requirements)
 - [Installation](#installation)

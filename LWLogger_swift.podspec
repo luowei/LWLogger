@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint LWLogger.podspec' to ensure this is a
+# Be sure to run `pod lib lint LWLogger_swift.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'LWLogger'
+  s.name             = 'LWLogger_swift'
   s.version          = '1.0.0'
-  s.summary          = '一个日志记录框架，基于CocoaLumberjack封将.'
+  s.summary          = 'LWLogger Swift version - Logging framework written in Swift.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-一个日志记录框架，基于CocoaLumberjack封装。能够记录不同级别的日志，并保存到文件，按日期生成压缩包。
+LWLogger Swift version - This is the Swift submodule of LWLogger containing logging framework components written in Swift. Based on CocoaLumberjack, it provides different log levels and file management with date-based compression.
                        DESC
 
   s.homepage         = 'https://gitlab.com/ioslibraries1/lwlogger.git'
@@ -29,20 +29,18 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  s.swift_version = '5.0'
 
-  s.source_files = 'LWLogger/Classes/**/*'
-  s.exclude_files = 'LWLogger/Classes/**/*.swift'
+  s.source_files = 'LWLogger_swift/Classes/**/*'
 
   # s.resource_bundles = {
-  #   'LWLogger' => ['LWLogger/Assets/*.png']
+  #   'LWLogger_swift' => ['LWLogger_swift/Assets/*.png']
   # }
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 
   s.dependency 'CocoaLumberjack', '~>3.6.0'
   s.dependency 'SSZipArchive'
-  # s.dependency 'skpsmtpmessage'
-
 end

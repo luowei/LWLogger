@@ -1,5 +1,12 @@
 # LWLogger
 
+
+## graphify Knowledge Graph
+
+- Interactive graph: https://luowei.github.io/LWLogger/
+- Report: https://luowei.github.io/LWLogger/GRAPH_REPORT.md
+- Graph data: https://luowei.github.io/LWLogger/graph.json
+
 [![CI Status](https://img.shields.io/travis/luowei/LWLogger.svg?style=flat)](https://travis-ci.org/luowei/LWLogger)
 [![Version](https://img.shields.io/cocoapods/v/LWLogger.svg?style=flat)](https://cocoapods.org/pods/LWLogger)
 [![License](https://img.shields.io/cocoapods/l/LWLogger.svg?style=flat)](https://cocoapods.org/pods/LWLogger)

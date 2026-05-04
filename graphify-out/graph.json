@@ -1,0 +1,1832 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "LWLogger+SwiftIntegration.swift",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLogger+SwiftIntegration.swift",
+      "source_location": "L1",
+      "id": "lwlogger_swift_classes_lwlogger_swiftintegration_swift",
+      "community": 3,
+      "norm_label": "lwlogger+swiftintegration.swift"
+    },
+    {
+      "label": "LWLogUtil",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLogger+SwiftIntegration.swift",
+      "source_location": "L13",
+      "id": "classes_lwlogger_swiftintegration_lwlogutil",
+      "community": 2,
+      "norm_label": "lwlogutil"
+    },
+    {
+      "label": ".logsDirectory()",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLogger+SwiftIntegration.swift",
+      "source_location": "L16",
+      "id": "classes_lwlogger_swiftintegration_lwlogutil_logsdirectory",
+      "community": 2,
+      "norm_label": ".logsdirectory()"
+    },
+    {
+      "label": ".logFilePaths()",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLogger+SwiftIntegration.swift",
+      "source_location": "L22",
+      "id": "classes_lwlogger_swiftintegration_lwlogutil_logfilepaths",
+      "community": 2,
+      "norm_label": ".logfilepaths()"
+    },
+    {
+      "label": ".logFileCount()",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLogger+SwiftIntegration.swift",
+      "source_location": "L28",
+      "id": "classes_lwlogger_swiftintegration_lwlogutil_logfilecount",
+      "community": 2,
+      "norm_label": ".logfilecount()"
+    },
+    {
+      "label": ".clearAllLogs()",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLogger+SwiftIntegration.swift",
+      "source_location": "L34",
+      "id": "classes_lwlogger_swiftintegration_lwlogutil_clearalllogs",
+      "community": 2,
+      "norm_label": ".clearalllogs()"
+    },
+    {
+      "label": ".log()",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLogger+SwiftIntegration.swift",
+      "source_location": "L54",
+      "id": "classes_lwlogger_swiftintegration_lwlogutil_log",
+      "community": 1,
+      "norm_label": ".log()"
+    },
+    {
+      "label": ".logZipPathAsync()",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLogger+SwiftIntegration.swift",
+      "source_location": "L74",
+      "id": "classes_lwlogger_swiftintegration_lwlogutil_logzippathasync",
+      "community": 2,
+      "norm_label": ".logzippathasync()"
+    },
+    {
+      "label": ".clearAllLogsAsync()",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLogger+SwiftIntegration.swift",
+      "source_location": "L84",
+      "id": "classes_lwlogger_swiftintegration_lwlogutil_clearalllogsasync",
+      "community": 2,
+      "norm_label": ".clearalllogsasync()"
+    },
+    {
+      "label": ".logZipPathPublisher()",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLogger+SwiftIntegration.swift",
+      "source_location": "L103",
+      "id": "classes_lwlogger_swiftintegration_lwlogutil_logzippathpublisher",
+      "community": 2,
+      "norm_label": ".logzippathpublisher()"
+    },
+    {
+      "label": "Logged",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLogger+SwiftIntegration.swift",
+      "source_location": "L117",
+      "id": "classes_lwlogger_swiftintegration_logged",
+      "community": 3,
+      "norm_label": "logged"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLogger+SwiftIntegration.swift",
+      "source_location": "L122",
+      "id": "classes_lwlogger_swiftintegration_logged_init",
+      "community": 1,
+      "norm_label": ".init()"
+    },
+    {
+      "label": "LWJSONLogFormatter",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLogger+SwiftIntegration.swift",
+      "source_location": "L140",
+      "id": "classes_lwlogger_swiftintegration_lwjsonlogformatter",
+      "community": 3,
+      "norm_label": "lwjsonlogformatter"
+    },
+    {
+      "label": "NSObject",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "nsobject",
+      "community": 3,
+      "norm_label": "nsobject"
+    },
+    {
+      "label": "DDLogFormatter",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "ddlogformatter",
+      "community": 3,
+      "norm_label": "ddlogformatter"
+    },
+    {
+      "label": ".format()",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLogger+SwiftIntegration.swift",
+      "source_location": "L142",
+      "id": "classes_lwlogger_swiftintegration_lwjsonlogformatter_format",
+      "community": 3,
+      "norm_label": ".format()"
+    },
+    {
+      "label": "DDLogFlag",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLogger+SwiftIntegration.swift",
+      "source_location": "L166",
+      "id": "classes_lwlogger_swiftintegration_ddlogflag",
+      "community": 3,
+      "norm_label": "ddlogflag"
+    },
+    {
+      "label": ".configureLogger()",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLogger+SwiftIntegration.swift",
+      "source_location": "L190",
+      "id": "classes_lwlogger_swiftintegration_lwlogutil_configurelogger",
+      "community": 2,
+      "norm_label": ".configurelogger()"
+    },
+    {
+      "label": ".addCustomFormatter()",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLogger+SwiftIntegration.swift",
+      "source_location": "L212",
+      "id": "classes_lwlogger_swiftintegration_lwlogutil_addcustomformatter",
+      "community": 2,
+      "norm_label": ".addcustomformatter()"
+    },
+    {
+      "label": "LWLoggerView.swift",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLoggerView.swift",
+      "source_location": "L1",
+      "id": "lwlogger_swift_classes_lwloggerview_swift",
+      "community": 4,
+      "norm_label": "lwloggerview.swift"
+    },
+    {
+      "label": "LWLoggerView",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLoggerView.swift",
+      "source_location": "L13",
+      "id": "classes_lwloggerview_lwloggerview",
+      "community": 4,
+      "norm_label": "lwloggerview"
+    },
+    {
+      "label": "View",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "view",
+      "community": 4,
+      "norm_label": "view"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLoggerView.swift",
+      "source_location": "L19",
+      "id": "classes_lwloggerview_lwloggerview_init",
+      "community": 4,
+      "norm_label": ".init()"
+    },
+    {
+      "label": "LogButtonLabel",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLoggerView.swift",
+      "source_location": "L114",
+      "id": "classes_lwloggerview_logbuttonlabel",
+      "community": 4,
+      "norm_label": "logbuttonlabel"
+    },
+    {
+      "label": "ShareSheet",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLoggerView.swift",
+      "source_location": "L131",
+      "id": "classes_lwloggerview_sharesheet",
+      "community": 4,
+      "norm_label": "sharesheet"
+    },
+    {
+      "label": "UIViewControllerRepresentable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "uiviewcontrollerrepresentable",
+      "community": 4,
+      "norm_label": "uiviewcontrollerrepresentable"
+    },
+    {
+      "label": ".makeUIViewController()",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLoggerView.swift",
+      "source_location": "L135",
+      "id": "classes_lwloggerview_sharesheet_makeuiviewcontroller",
+      "community": 4,
+      "norm_label": ".makeuiviewcontroller()"
+    },
+    {
+      "label": ".updateUIViewController()",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLoggerView.swift",
+      "source_location": "L140",
+      "id": "classes_lwloggerview_sharesheet_updateuiviewcontroller",
+      "community": 4,
+      "norm_label": ".updateuiviewcontroller()"
+    },
+    {
+      "label": "LWLoggerView_Previews",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLoggerView.swift",
+      "source_location": "L145",
+      "id": "classes_lwloggerview_lwloggerview_previews",
+      "community": 4,
+      "norm_label": "lwloggerview_previews"
+    },
+    {
+      "label": "PreviewProvider",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "previewprovider",
+      "community": 4,
+      "norm_label": "previewprovider"
+    },
+    {
+      "label": "LWLoggerExample.swift",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L1",
+      "id": "lwlogger_swift_classes_lwloggerexample_swift",
+      "community": 0,
+      "norm_label": "lwloggerexample.swift"
+    },
+    {
+      "label": "LWLoggerExample",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L11",
+      "id": "classes_lwloggerexample_lwloggerexample",
+      "community": 0,
+      "norm_label": "lwloggerexample"
+    },
+    {
+      "label": ".setup()",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L14",
+      "id": "classes_lwloggerexample_lwloggerexample_setup",
+      "community": 0,
+      "norm_label": ".setup()"
+    },
+    {
+      "label": ".basicLoggingExample()",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L20",
+      "id": "classes_lwloggerexample_lwloggerexample_basicloggingexample",
+      "community": 1,
+      "norm_label": ".basicloggingexample()"
+    },
+    {
+      "label": ".loggingWithVariables()",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L29",
+      "id": "classes_lwloggerexample_lwloggerexample_loggingwithvariables",
+      "community": 0,
+      "norm_label": ".loggingwithvariables()"
+    },
+    {
+      "label": ".networkLoggingExample()",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L38",
+      "id": "classes_lwloggerexample_lwloggerexample_networkloggingexample",
+      "community": 1,
+      "norm_label": ".networkloggingexample()"
+    },
+    {
+      "label": ".contextualLogging()",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L49",
+      "id": "classes_lwloggerexample_lwloggerexample_contextuallogging",
+      "community": 1,
+      "norm_label": ".contextuallogging()"
+    },
+    {
+      "label": ".exportLogsExample()",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L60",
+      "id": "classes_lwloggerexample_lwloggerexample_exportlogsexample",
+      "community": 0,
+      "norm_label": ".exportlogsexample()"
+    },
+    {
+      "label": ".errorHandlingExample()",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L67",
+      "id": "classes_lwloggerexample_lwloggerexample_errorhandlingexample",
+      "community": 1,
+      "norm_label": ".errorhandlingexample()"
+    },
+    {
+      "label": ".performSomeOperation()",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L76",
+      "id": "classes_lwloggerexample_lwloggerexample_performsomeoperation",
+      "community": 0,
+      "norm_label": ".performsomeoperation()"
+    },
+    {
+      "label": "ExampleApp",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L90",
+      "id": "classes_lwloggerexample_exampleapp",
+      "community": 0,
+      "norm_label": "exampleapp"
+    },
+    {
+      "label": "App",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "app",
+      "community": 0,
+      "norm_label": "app"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L92",
+      "id": "classes_lwloggerexample_exampleapp_init",
+      "community": 0,
+      "norm_label": ".init()"
+    },
+    {
+      "label": "ExampleAppDelegate",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L114",
+      "id": "classes_lwloggerexample_exampleappdelegate",
+      "community": 0,
+      "norm_label": "exampleappdelegate"
+    },
+    {
+      "label": "UIResponder",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "uiresponder",
+      "community": 0,
+      "norm_label": "uiresponder"
+    },
+    {
+      "label": "UIApplicationDelegate",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "uiapplicationdelegate",
+      "community": 0,
+      "norm_label": "uiapplicationdelegate"
+    },
+    {
+      "label": ".application()",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L117",
+      "id": "classes_lwloggerexample_exampleappdelegate_application",
+      "community": 0,
+      "norm_label": ".application()"
+    },
+    {
+      "label": ".applicationWillTerminate()",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L136",
+      "id": "classes_lwloggerexample_exampleappdelegate_applicationwillterminate",
+      "community": 0,
+      "norm_label": ".applicationwillterminate()"
+    },
+    {
+      "label": "LWLogUtil.swift",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLogUtil.swift",
+      "source_location": "L1",
+      "id": "lwlogger_swift_classes_lwlogutil_swift",
+      "community": 3,
+      "norm_label": "lwlogutil.swift"
+    },
+    {
+      "label": "LWLogUtil",
+      "file_type": "code",
+      "source_file": "LWLogger/Classes/LWLogUtil.m",
+      "source_location": "L11",
+      "id": "classes_lwlogutil_lwlogutil",
+      "community": 3,
+      "norm_label": "lwlogutil"
+    },
+    {
+      "label": "-initLogConfig",
+      "file_type": "code",
+      "source_file": "LWLogger/Classes/LWLogUtil.m",
+      "source_location": "L15",
+      "id": "classes_lwlogutil_lwlogutil_initlogconfig",
+      "community": 3,
+      "norm_label": "-initlogconfig"
+    },
+    {
+      "label": "-logZipPath",
+      "file_type": "code",
+      "source_file": "LWLogger/Classes/LWLogUtil.m",
+      "source_location": "L24",
+      "id": "classes_lwlogutil_lwlogutil_logzippath",
+      "community": 2,
+      "norm_label": "-logzippath"
+    },
+    {
+      "label": "LWLogger.swift",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLogger.swift",
+      "source_location": "L1",
+      "id": "lwlogger_swift_classes_lwlogger_swift",
+      "community": 1,
+      "norm_label": "lwlogger.swift"
+    },
+    {
+      "label": "LWLog()",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLogger.swift",
+      "source_location": "L27",
+      "id": "classes_lwlogger_lwlog",
+      "community": 0,
+      "norm_label": "lwlog()"
+    },
+    {
+      "label": "LWLogVerbose()",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLogger.swift",
+      "source_location": "L35",
+      "id": "classes_lwlogger_lwlogverbose",
+      "community": 1,
+      "norm_label": "lwlogverbose()"
+    },
+    {
+      "label": "LWLogDebug()",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLogger.swift",
+      "source_location": "L43",
+      "id": "classes_lwlogger_lwlogdebug",
+      "community": 1,
+      "norm_label": "lwlogdebug()"
+    },
+    {
+      "label": "LWLogInfo()",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLogger.swift",
+      "source_location": "L51",
+      "id": "classes_lwlogger_lwloginfo",
+      "community": 1,
+      "norm_label": "lwloginfo()"
+    },
+    {
+      "label": "LWLogWarn()",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLogger.swift",
+      "source_location": "L59",
+      "id": "classes_lwlogger_lwlogwarn",
+      "community": 1,
+      "norm_label": "lwlogwarn()"
+    },
+    {
+      "label": "LWLogError()",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLogger.swift",
+      "source_location": "L67",
+      "id": "classes_lwlogger_lwlogerror",
+      "community": 1,
+      "norm_label": "lwlogerror()"
+    },
+    {
+      "label": "LWLoggerQuickStart.swift",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLoggerQuickStart.swift",
+      "source_location": "L1",
+      "id": "lwlogger_swift_classes_lwloggerquickstart_swift",
+      "community": 8,
+      "norm_label": "lwloggerquickstart.swift"
+    },
+    {
+      "label": "LWLoggerQuickStart",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLoggerQuickStart.swift",
+      "source_location": "L199",
+      "id": "classes_lwloggerquickstart_lwloggerquickstart",
+      "community": 8,
+      "norm_label": "lwloggerquickstart"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "LWLogger_swift/Classes/LWLoggerQuickStart.swift",
+      "source_location": "L204",
+      "id": "classes_lwloggerquickstart_lwloggerquickstart_init",
+      "community": 8,
+      "norm_label": ".init()"
+    },
+    {
+      "label": "Tests.m",
+      "file_type": "code",
+      "source_file": "Example/Tests/Tests.m",
+      "source_location": "L1",
+      "id": "example_tests_tests_m",
+      "community": 6,
+      "norm_label": "tests.m"
+    },
+    {
+      "label": "Tests",
+      "file_type": "code",
+      "source_file": "Example/Tests/Tests.m",
+      "source_location": "L11",
+      "id": "tests_tests_tests",
+      "community": 6,
+      "norm_label": "tests"
+    },
+    {
+      "label": "-setUp",
+      "file_type": "code",
+      "source_file": "Example/Tests/Tests.m",
+      "source_location": "L17",
+      "id": "tests_tests_tests_setup",
+      "community": 6,
+      "norm_label": "-setup"
+    },
+    {
+      "label": "-tearDown",
+      "file_type": "code",
+      "source_file": "Example/Tests/Tests.m",
+      "source_location": "L23",
+      "id": "tests_tests_tests_teardown",
+      "community": 6,
+      "norm_label": "-teardown"
+    },
+    {
+      "label": "-testExample",
+      "file_type": "code",
+      "source_file": "Example/Tests/Tests.m",
+      "source_location": "L29",
+      "id": "tests_tests_tests_testexample",
+      "community": 6,
+      "norm_label": "-testexample"
+    },
+    {
+      "label": "LWViewController.h",
+      "file_type": "code",
+      "source_file": "Example/LWLogger/LWViewController.h",
+      "source_location": "L1",
+      "id": "example_lwlogger_lwviewcontroller_h",
+      "community": 9,
+      "norm_label": "lwviewcontroller.h"
+    },
+    {
+      "label": "LWAppDelegate.h",
+      "file_type": "code",
+      "source_file": "Example/LWLogger/LWAppDelegate.h",
+      "source_location": "L1",
+      "id": "example_lwlogger_lwappdelegate_h",
+      "community": 10,
+      "norm_label": "lwappdelegate.h"
+    },
+    {
+      "label": "main.m",
+      "file_type": "code",
+      "source_file": "Example/LWLogger/main.m",
+      "source_location": "L1",
+      "id": "example_lwlogger_main_m",
+      "community": 11,
+      "norm_label": "main.m"
+    },
+    {
+      "label": "LWAppDelegate.m",
+      "file_type": "code",
+      "source_file": "Example/LWLogger/LWAppDelegate.m",
+      "source_location": "L1",
+      "id": "example_lwlogger_lwappdelegate_m",
+      "community": 5,
+      "norm_label": "lwappdelegate.m"
+    },
+    {
+      "label": "LWAppDelegate",
+      "file_type": "code",
+      "source_file": "Example/LWLogger/LWAppDelegate.m",
+      "source_location": "L12",
+      "id": "lwlogger_lwappdelegate_lwappdelegate",
+      "community": 5,
+      "norm_label": "lwappdelegate"
+    },
+    {
+      "label": "-applicationdidFinishLaunchingWithOptions",
+      "file_type": "code",
+      "source_file": "Example/LWLogger/LWAppDelegate.m",
+      "source_location": "L14",
+      "id": "lwlogger_lwappdelegate_lwappdelegate_applicationdidfinishlaunchingwithoptions",
+      "community": 5,
+      "norm_label": "-applicationdidfinishlaunchingwithoptions"
+    },
+    {
+      "label": "-applicationWillResignActive",
+      "file_type": "code",
+      "source_file": "Example/LWLogger/LWAppDelegate.m",
+      "source_location": "L21",
+      "id": "lwlogger_lwappdelegate_lwappdelegate_applicationwillresignactive",
+      "community": 5,
+      "norm_label": "-applicationwillresignactive"
+    },
+    {
+      "label": "-applicationDidEnterBackground",
+      "file_type": "code",
+      "source_file": "Example/LWLogger/LWAppDelegate.m",
+      "source_location": "L26",
+      "id": "lwlogger_lwappdelegate_lwappdelegate_applicationdidenterbackground",
+      "community": 5,
+      "norm_label": "-applicationdidenterbackground"
+    },
+    {
+      "label": "-applicationWillEnterForeground",
+      "file_type": "code",
+      "source_file": "Example/LWLogger/LWAppDelegate.m",
+      "source_location": "L31",
+      "id": "lwlogger_lwappdelegate_lwappdelegate_applicationwillenterforeground",
+      "community": 5,
+      "norm_label": "-applicationwillenterforeground"
+    },
+    {
+      "label": "-applicationDidBecomeActive",
+      "file_type": "code",
+      "source_file": "Example/LWLogger/LWAppDelegate.m",
+      "source_location": "L35",
+      "id": "lwlogger_lwappdelegate_lwappdelegate_applicationdidbecomeactive",
+      "community": 5,
+      "norm_label": "-applicationdidbecomeactive"
+    },
+    {
+      "label": "-applicationWillTerminate",
+      "file_type": "code",
+      "source_file": "Example/LWLogger/LWAppDelegate.m",
+      "source_location": "L39",
+      "id": "lwlogger_lwappdelegate_lwappdelegate_applicationwillterminate",
+      "community": 5,
+      "norm_label": "-applicationwillterminate"
+    },
+    {
+      "label": "LWViewController.m",
+      "file_type": "code",
+      "source_file": "Example/LWLogger/LWViewController.m",
+      "source_location": "L1",
+      "id": "example_lwlogger_lwviewcontroller_m",
+      "community": 7,
+      "norm_label": "lwviewcontroller.m"
+    },
+    {
+      "label": "LWViewController",
+      "file_type": "code",
+      "source_file": "Example/LWLogger/LWViewController.m",
+      "source_location": "L12",
+      "id": "lwlogger_lwviewcontroller_lwviewcontroller",
+      "community": 7,
+      "norm_label": "lwviewcontroller"
+    },
+    {
+      "label": "-viewDidLoad",
+      "file_type": "code",
+      "source_file": "Example/LWLogger/LWViewController.m",
+      "source_location": "L18",
+      "id": "lwlogger_lwviewcontroller_lwviewcontroller_viewdidload",
+      "community": 7,
+      "norm_label": "-viewdidload"
+    },
+    {
+      "label": "-logSend",
+      "file_type": "code",
+      "source_file": "Example/LWLogger/LWViewController.m",
+      "source_location": "L27",
+      "id": "lwlogger_lwviewcontroller_lwviewcontroller_logsend",
+      "community": 7,
+      "norm_label": "-logsend"
+    },
+    {
+      "label": "-shareWithFilePath",
+      "file_type": "code",
+      "source_file": "Example/LWLogger/LWViewController.m",
+      "source_location": "L32",
+      "id": "lwlogger_lwviewcontroller_lwviewcontroller_sharewithfilepath",
+      "community": 7,
+      "norm_label": "-sharewithfilepath"
+    },
+    {
+      "label": "LWLogUtil.h",
+      "file_type": "code",
+      "source_file": "LWLogger/Classes/LWLogUtil.h",
+      "source_location": "L1",
+      "id": "lwlogger_classes_lwlogutil_h",
+      "community": 12,
+      "norm_label": "lwlogutil.h"
+    },
+    {
+      "label": "LWLogUtil.m",
+      "file_type": "code",
+      "source_file": "LWLogger/Classes/LWLogUtil.m",
+      "source_location": "L1",
+      "id": "lwlogger_classes_lwlogutil_m",
+      "community": 3,
+      "norm_label": "lwlogutil.m"
+    },
+    {
+      "label": "LWLogger.h",
+      "file_type": "code",
+      "source_file": "LWLogger/Classes/LWLogger.h",
+      "source_location": "L1",
+      "id": "lwlogger_classes_lwlogger_h",
+      "community": 13,
+      "norm_label": "lwlogger.h"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLogger+SwiftIntegration.swift",
+      "source_location": "L181",
+      "weight": 1.0,
+      "source": "lwlogger_swift_classes_lwlogger_swiftintegration_swift",
+      "target": "classes_lwlogger_swiftintegration_lwlogutil",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLogger+SwiftIntegration.swift",
+      "source_location": "L117",
+      "weight": 1.0,
+      "source": "lwlogger_swift_classes_lwlogger_swiftintegration_swift",
+      "target": "classes_lwlogger_swiftintegration_logged",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLogger+SwiftIntegration.swift",
+      "source_location": "L140",
+      "weight": 1.0,
+      "source": "lwlogger_swift_classes_lwlogger_swiftintegration_swift",
+      "target": "classes_lwlogger_swiftintegration_lwjsonlogformatter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLogger+SwiftIntegration.swift",
+      "source_location": "L166",
+      "weight": 1.0,
+      "source": "lwlogger_swift_classes_lwlogger_swiftintegration_swift",
+      "target": "classes_lwlogger_swiftintegration_ddlogflag",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLogger+SwiftIntegration.swift",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "classes_lwlogger_swiftintegration_lwlogutil",
+      "target": "classes_lwlogger_swiftintegration_lwlogutil_logsdirectory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLogger+SwiftIntegration.swift",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "classes_lwlogger_swiftintegration_lwlogutil",
+      "target": "classes_lwlogger_swiftintegration_lwlogutil_logfilepaths",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLogger+SwiftIntegration.swift",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "classes_lwlogger_swiftintegration_lwlogutil",
+      "target": "classes_lwlogger_swiftintegration_lwlogutil_logfilecount",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLogger+SwiftIntegration.swift",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "classes_lwlogger_swiftintegration_lwlogutil",
+      "target": "classes_lwlogger_swiftintegration_lwlogutil_clearalllogs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLogger+SwiftIntegration.swift",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "classes_lwlogger_swiftintegration_lwlogutil",
+      "target": "classes_lwlogger_swiftintegration_lwlogutil_log",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLogger+SwiftIntegration.swift",
+      "source_location": "L74",
+      "weight": 1.0,
+      "source": "classes_lwlogger_swiftintegration_lwlogutil",
+      "target": "classes_lwlogger_swiftintegration_lwlogutil_logzippathasync",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLogger+SwiftIntegration.swift",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "classes_lwlogger_swiftintegration_lwlogutil",
+      "target": "classes_lwlogger_swiftintegration_lwlogutil_clearalllogsasync",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLogger+SwiftIntegration.swift",
+      "source_location": "L103",
+      "weight": 1.0,
+      "source": "classes_lwlogger_swiftintegration_lwlogutil",
+      "target": "classes_lwlogger_swiftintegration_lwlogutil_logzippathpublisher",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLogger+SwiftIntegration.swift",
+      "source_location": "L190",
+      "weight": 1.0,
+      "source": "classes_lwlogger_swiftintegration_lwlogutil",
+      "target": "classes_lwlogger_swiftintegration_lwlogutil_configurelogger",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLogger+SwiftIntegration.swift",
+      "source_location": "L212",
+      "weight": 1.0,
+      "source": "classes_lwlogger_swiftintegration_lwlogutil",
+      "target": "classes_lwlogger_swiftintegration_lwlogutil_addcustomformatter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLogger+SwiftIntegration.swift",
+      "source_location": "L87",
+      "weight": 1.0,
+      "source": "classes_lwlogger_swiftintegration_lwlogutil_clearalllogsasync",
+      "target": "classes_lwlogger_swiftintegration_lwlogutil_clearalllogs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWLogger_swift/Classes/LWLogger+SwiftIntegration.swift",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "classes_lwlogger_swiftintegration_lwlogutil_clearalllogs",
+      "target": "classes_lwlogger_lwloginfo"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWLogger_swift/Classes/LWLogger+SwiftIntegration.swift",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "classes_lwlogger_swiftintegration_lwlogutil_clearalllogs",
+      "target": "classes_lwlogger_lwlogerror"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWLogger_swift/Classes/LWLogger+SwiftIntegration.swift",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "classes_lwlogger_swiftintegration_lwlogutil_log",
+      "target": "classes_lwlogger_lwloginfo"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWLogger_swift/Classes/LWLogger+SwiftIntegration.swift",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "classes_lwlogger_swiftintegration_lwlogutil_log",
+      "target": "classes_lwlogger_lwlogerror"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWLogger_swift/Classes/LWLogger+SwiftIntegration.swift",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "classes_lwlogger_swiftintegration_lwlogutil_logzippathasync",
+      "target": "classes_lwlogutil_lwlogutil_logzippath"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWLogger_swift/Classes/LWLogger+SwiftIntegration.swift",
+      "source_location": "L106",
+      "weight": 1.0,
+      "source": "classes_lwlogger_swiftintegration_lwlogutil_logzippathpublisher",
+      "target": "classes_lwlogutil_lwlogutil_logzippath"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLogger+SwiftIntegration.swift",
+      "source_location": "L122",
+      "weight": 1.0,
+      "source": "classes_lwlogger_swiftintegration_logged",
+      "target": "classes_lwlogger_swiftintegration_logged_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWLogger_swift/Classes/LWLogger+SwiftIntegration.swift",
+      "source_location": "L125",
+      "weight": 1.0,
+      "source": "classes_lwlogger_swiftintegration_logged_init",
+      "target": "classes_lwlogger_lwlogdebug"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLogger+SwiftIntegration.swift",
+      "source_location": "L140",
+      "weight": 1.0,
+      "source": "classes_lwlogger_swiftintegration_lwjsonlogformatter",
+      "target": "nsobject",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLogger+SwiftIntegration.swift",
+      "source_location": "L140",
+      "weight": 1.0,
+      "source": "classes_lwlogger_swiftintegration_lwjsonlogformatter",
+      "target": "ddlogformatter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLogger+SwiftIntegration.swift",
+      "source_location": "L142",
+      "weight": 1.0,
+      "source": "classes_lwlogger_swiftintegration_lwjsonlogformatter",
+      "target": "classes_lwlogger_swiftintegration_lwjsonlogformatter_format",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLogUtil.swift",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "classes_lwlogutil_lwlogutil",
+      "target": "nsobject",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLoggerView.swift",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "lwlogger_swift_classes_lwloggerview_swift",
+      "target": "classes_lwloggerview_lwloggerview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLoggerView.swift",
+      "source_location": "L114",
+      "weight": 1.0,
+      "source": "lwlogger_swift_classes_lwloggerview_swift",
+      "target": "classes_lwloggerview_logbuttonlabel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLoggerView.swift",
+      "source_location": "L131",
+      "weight": 1.0,
+      "source": "lwlogger_swift_classes_lwloggerview_swift",
+      "target": "classes_lwloggerview_sharesheet",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLoggerView.swift",
+      "source_location": "L145",
+      "weight": 1.0,
+      "source": "lwlogger_swift_classes_lwloggerview_swift",
+      "target": "classes_lwloggerview_lwloggerview_previews",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLoggerView.swift",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "classes_lwloggerview_lwloggerview",
+      "target": "view",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLoggerView.swift",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "classes_lwloggerview_lwloggerview",
+      "target": "classes_lwloggerview_lwloggerview_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLoggerView.swift",
+      "source_location": "L114",
+      "weight": 1.0,
+      "source": "classes_lwloggerview_logbuttonlabel",
+      "target": "view",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLoggerView.swift",
+      "source_location": "L131",
+      "weight": 1.0,
+      "source": "classes_lwloggerview_sharesheet",
+      "target": "uiviewcontrollerrepresentable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLoggerView.swift",
+      "source_location": "L135",
+      "weight": 1.0,
+      "source": "classes_lwloggerview_sharesheet",
+      "target": "classes_lwloggerview_sharesheet_makeuiviewcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLoggerView.swift",
+      "source_location": "L140",
+      "weight": 1.0,
+      "source": "classes_lwloggerview_sharesheet",
+      "target": "classes_lwloggerview_sharesheet_updateuiviewcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLoggerView.swift",
+      "source_location": "L145",
+      "weight": 1.0,
+      "source": "classes_lwloggerview_lwloggerview_previews",
+      "target": "previewprovider",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "lwlogger_swift_classes_lwloggerexample_swift",
+      "target": "classes_lwloggerexample_lwloggerexample",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "lwlogger_swift_classes_lwloggerexample_swift",
+      "target": "classes_lwloggerexample_exampleapp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L114",
+      "weight": 1.0,
+      "source": "lwlogger_swift_classes_lwloggerexample_swift",
+      "target": "classes_lwloggerexample_exampleappdelegate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "classes_lwloggerexample_lwloggerexample",
+      "target": "classes_lwloggerexample_lwloggerexample_setup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "classes_lwloggerexample_lwloggerexample",
+      "target": "classes_lwloggerexample_lwloggerexample_basicloggingexample",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "classes_lwloggerexample_lwloggerexample",
+      "target": "classes_lwloggerexample_lwloggerexample_loggingwithvariables",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "classes_lwloggerexample_lwloggerexample",
+      "target": "classes_lwloggerexample_lwloggerexample_networkloggingexample",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "classes_lwloggerexample_lwloggerexample",
+      "target": "classes_lwloggerexample_lwloggerexample_contextuallogging",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "classes_lwloggerexample_lwloggerexample",
+      "target": "classes_lwloggerexample_lwloggerexample_exportlogsexample",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "classes_lwloggerexample_lwloggerexample",
+      "target": "classes_lwloggerexample_lwloggerexample_errorhandlingexample",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "classes_lwloggerexample_lwloggerexample",
+      "target": "classes_lwloggerexample_lwloggerexample_performsomeoperation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "classes_lwloggerexample_lwloggerexample_setup",
+      "target": "classes_lwlogger_lwlog"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "classes_lwloggerexample_lwloggerexample_basicloggingexample",
+      "target": "classes_lwlogger_lwlogverbose"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "classes_lwloggerexample_lwloggerexample_basicloggingexample",
+      "target": "classes_lwlogger_lwlogdebug"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "classes_lwloggerexample_lwloggerexample_basicloggingexample",
+      "target": "classes_lwlogger_lwloginfo"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "classes_lwloggerexample_lwloggerexample_basicloggingexample",
+      "target": "classes_lwlogger_lwlogwarn"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "classes_lwloggerexample_lwloggerexample_basicloggingexample",
+      "target": "classes_lwlogger_lwlogerror"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "classes_lwloggerexample_lwloggerexample_loggingwithvariables",
+      "target": "classes_lwlogger_lwlog"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "classes_lwloggerexample_lwloggerexample_loggingwithvariables",
+      "target": "classes_lwlogger_lwloginfo"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "classes_lwloggerexample_lwloggerexample_networkloggingexample",
+      "target": "classes_lwlogger_lwloginfo"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "classes_lwloggerexample_lwloggerexample_networkloggingexample",
+      "target": "classes_lwlogger_lwlogerror"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "classes_lwloggerexample_lwloggerexample_contextuallogging",
+      "target": "classes_lwlogger_lwlogdebug"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "classes_lwloggerexample_lwloggerexample_exportlogsexample",
+      "target": "classes_lwlogger_lwlog"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L69",
+      "weight": 1.0,
+      "source": "classes_lwloggerexample_lwloggerexample_errorhandlingexample",
+      "target": "classes_lwloggerexample_lwloggerexample_performsomeoperation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "classes_lwloggerexample_lwloggerexample_errorhandlingexample",
+      "target": "classes_lwlogger_lwloginfo"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "classes_lwloggerexample_lwloggerexample_errorhandlingexample",
+      "target": "classes_lwlogger_lwlogerror"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "classes_lwloggerexample_exampleapp",
+      "target": "app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L92",
+      "weight": 1.0,
+      "source": "classes_lwloggerexample_exampleapp",
+      "target": "classes_lwloggerexample_exampleapp_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "classes_lwloggerexample_exampleapp_init",
+      "target": "classes_lwlogger_lwlog"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L114",
+      "weight": 1.0,
+      "source": "classes_lwloggerexample_exampleappdelegate",
+      "target": "uiresponder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L114",
+      "weight": 1.0,
+      "source": "classes_lwloggerexample_exampleappdelegate",
+      "target": "uiapplicationdelegate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L117",
+      "weight": 1.0,
+      "source": "classes_lwloggerexample_exampleappdelegate",
+      "target": "classes_lwloggerexample_exampleappdelegate_application",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L136",
+      "weight": 1.0,
+      "source": "classes_lwloggerexample_exampleappdelegate",
+      "target": "classes_lwloggerexample_exampleappdelegate_applicationwillterminate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L122",
+      "weight": 1.0,
+      "source": "classes_lwloggerexample_exampleappdelegate_application",
+      "target": "classes_lwlogger_lwlog"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L126",
+      "weight": 1.0,
+      "source": "classes_lwloggerexample_exampleappdelegate_application",
+      "target": "classes_lwlogger_lwloginfo"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L137",
+      "weight": 1.0,
+      "source": "classes_lwloggerexample_exampleappdelegate_applicationwillterminate",
+      "target": "classes_lwlogger_lwlog"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWLogger_swift/Classes/LWLoggerExample.swift",
+      "source_location": "L141",
+      "weight": 1.0,
+      "source": "classes_lwloggerexample_exampleappdelegate_applicationwillterminate",
+      "target": "classes_lwlogger_lwloginfo"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLogUtil.swift",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "lwlogger_swift_classes_lwlogutil_swift",
+      "target": "classes_lwlogutil_lwlogutil",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger/Classes/LWLogUtil.m",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "classes_lwlogutil_lwlogutil",
+      "target": "classes_lwlogutil_lwlogutil_initlogconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger/Classes/LWLogUtil.m",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "classes_lwlogutil_lwlogutil",
+      "target": "classes_lwlogutil_lwlogutil_logzippath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger/Classes/LWLogUtil.m",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "lwlogger_classes_lwlogutil_m",
+      "target": "classes_lwlogutil_lwlogutil",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLogger.swift",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "lwlogger_swift_classes_lwlogger_swift",
+      "target": "classes_lwlogger_lwlog",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLogger.swift",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "lwlogger_swift_classes_lwlogger_swift",
+      "target": "classes_lwlogger_lwlogverbose",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLogger.swift",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "lwlogger_swift_classes_lwlogger_swift",
+      "target": "classes_lwlogger_lwlogdebug",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLogger.swift",
+      "source_location": "L91",
+      "weight": 1.0,
+      "source": "lwlogger_swift_classes_lwlogger_swift",
+      "target": "classes_lwlogger_lwloginfo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLogger.swift",
+      "source_location": "L96",
+      "weight": 1.0,
+      "source": "lwlogger_swift_classes_lwlogger_swift",
+      "target": "classes_lwlogger_lwlogwarn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLogger.swift",
+      "source_location": "L101",
+      "weight": 1.0,
+      "source": "lwlogger_swift_classes_lwlogger_swift",
+      "target": "classes_lwlogger_lwlogerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLoggerQuickStart.swift",
+      "source_location": "L199",
+      "weight": 1.0,
+      "source": "lwlogger_swift_classes_lwloggerquickstart_swift",
+      "target": "classes_lwloggerquickstart_lwloggerquickstart",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWLogger_swift/Classes/LWLoggerQuickStart.swift",
+      "source_location": "L204",
+      "weight": 1.0,
+      "source": "classes_lwloggerquickstart_lwloggerquickstart",
+      "target": "classes_lwloggerquickstart_lwloggerquickstart_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/Tests/Tests.m",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "example_tests_tests_m",
+      "target": "tests_tests_tests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/Tests/Tests.m",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "tests_tests_tests",
+      "target": "tests_tests_tests_setup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/Tests/Tests.m",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "tests_tests_tests",
+      "target": "tests_tests_tests_teardown",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/Tests/Tests.m",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "tests_tests_tests",
+      "target": "tests_tests_tests_testexample",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWLogger/LWAppDelegate.m",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "example_lwlogger_lwappdelegate_m",
+      "target": "lwlogger_lwappdelegate_lwappdelegate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWLogger/LWAppDelegate.m",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "lwlogger_lwappdelegate_lwappdelegate",
+      "target": "lwlogger_lwappdelegate_lwappdelegate_applicationdidfinishlaunchingwithoptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWLogger/LWAppDelegate.m",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "lwlogger_lwappdelegate_lwappdelegate",
+      "target": "lwlogger_lwappdelegate_lwappdelegate_applicationwillresignactive",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWLogger/LWAppDelegate.m",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "lwlogger_lwappdelegate_lwappdelegate",
+      "target": "lwlogger_lwappdelegate_lwappdelegate_applicationdidenterbackground",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWLogger/LWAppDelegate.m",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "lwlogger_lwappdelegate_lwappdelegate",
+      "target": "lwlogger_lwappdelegate_lwappdelegate_applicationwillenterforeground",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWLogger/LWAppDelegate.m",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "lwlogger_lwappdelegate_lwappdelegate",
+      "target": "lwlogger_lwappdelegate_lwappdelegate_applicationdidbecomeactive",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWLogger/LWAppDelegate.m",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "lwlogger_lwappdelegate_lwappdelegate",
+      "target": "lwlogger_lwappdelegate_lwappdelegate_applicationwillterminate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWLogger/LWViewController.m",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "example_lwlogger_lwviewcontroller_m",
+      "target": "lwlogger_lwviewcontroller_lwviewcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWLogger/LWViewController.m",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "lwlogger_lwviewcontroller_lwviewcontroller",
+      "target": "lwlogger_lwviewcontroller_lwviewcontroller_viewdidload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWLogger/LWViewController.m",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "lwlogger_lwviewcontroller_lwviewcontroller",
+      "target": "lwlogger_lwviewcontroller_lwviewcontroller_logsend",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWLogger/LWViewController.m",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "lwlogger_lwviewcontroller_lwviewcontroller",
+      "target": "lwlogger_lwviewcontroller_lwviewcontroller_sharewithfilepath",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}
